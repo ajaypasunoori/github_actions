@@ -9,8 +9,11 @@ jobs:
       name: welcome message
       run: echo "my first github action"
 
-      name: list the files 
+      name: list the files
       run: ls
+
+      name: Check the user
+      run: who am i
 
       name: read file
       run: cat README.md
